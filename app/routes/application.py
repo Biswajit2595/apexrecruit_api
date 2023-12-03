@@ -251,7 +251,7 @@ def recommend_applicants(job_posting_id):
         messages = [
     {
         "role": "system",
-        "content": "You are a helpful assistant. Your task is to help the hiring manager recommend top 3 applicants based on the job's required skills and their experience and provide requirements matching percentage. If there are more than one application from a single applicant consider only one. Recommend applicants keep the response within 180 words."
+        "content": "You are a helpful assistant. Your task is to help the hiring manager recommend top 3 applicants based on the job's required skills and their experience and provide requirements matching percentage. If there are more than one application from a single applicant consider only one. Recommend applicants keep the response within 180 words. with there name, matched requirements percentage and your dhort feedback"
     },
     {
         "role": "user",
@@ -260,7 +260,7 @@ def recommend_applicants(job_posting_id):
     {
         "role": "assistant",
         "content": "Recommendations: Based on the data, I recommend the following applicants for the job, along with the percentage of matched criteria:\n"
-                     "Therefore, the top three recommendations for the Software Developer - Frontend position are:\n1. Chris Brown (100% skills matching)\n2. Jane Smith (66.67% skills matching)\n3. Eva Miller (33.33% skills matching)"
+                    "Therefore, the top three recommendations for the Software Developer - Frontend position are:\n1. Chris Brown (100% skills matching)\n2. Jane Smith (66.67% skills matching)\n3. Eva Miller (33.33% skills matching)"
     }
 ]
 
